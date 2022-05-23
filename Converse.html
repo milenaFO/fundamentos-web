@@ -13,7 +13,7 @@
         <li><a href="Converse.html">Converse conosco</a></li>
     </ul>
 <h1><font color = "mediumaquamarine"><font size=+4>Mande seu recado</font></font></h1>
-<form>
+<form onsubmit="enviar()"> 
     <label for="nome">Nome:</label> <br>
     <input type="text" id="nome">
     <br>
@@ -30,10 +30,16 @@
     <textarea name="assunto" id="assunto" cols="50" rows="10" ></textarea>
     <br>
     <br>
-    <button><b><font color = "mediumaquamarine">Enviar</font></b></button>
+    <button>Enviar</button>
+    <br>
+   <!-- <button onclick="hello()">Clique aqui</button> -->
 </form>
 <br>
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-CjARM1yaoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<script src="assets/scripts/scriptAula.js">
+    
+</script>
 </body>
 </html>
